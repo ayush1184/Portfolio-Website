@@ -90,6 +90,7 @@ const eventsImpossibleList = [
     main: `Musical Concert`,
     sub: [
       { main: `Ed Sheeran` },
+      { main: `Charlie Puth` },
       { main: `Justin Bieber` },
       { main: `Taylor Swift` },
       { main: `Selena Gomez` },
