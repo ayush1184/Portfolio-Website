@@ -10,8 +10,8 @@ const projects = [
   {
     projectTitle: `Pig Game`,
     description: `Pig Game is a two-player game. Players take turns to roll a single dice as many times as they wish, adding all roll results to a running total, but losing their gained score for the turn if they roll a 1.`,
-    codeURL: `https://github.com/ayush1184/`,
-    demoURL: ``,
+    codeURL: `https://github.com/ayush1184/Pig_Game`,
+    demoURL: `https://ayush1184.github.io/Pig_Game/`,
   },
   {
     projectTitle: `Bankist`,
@@ -39,15 +39,15 @@ const projects = [
     projectTitle: `Weatherly`,
     projectSubTitle: `Weather App`,
     description: `The weather app also provides atmospheric pressure, weather conditions, visibility distance, relative humidity, precipitation in different unites, dew point, wind speed and direction, in addition to seven days in future and hourly weather forecast.`,
-    codeURL: `https://github.com/ayush1184/`,
-    demoURL: ``,
+    codeURL: `https://github.com/ayush1184/Weatherly`,
+    demoURL: `https://weatherly-aks1184.vercel.app/`,
   },
   {
     projectTitle: `usePopcorn`,
     projectSubTitle: `Movie App`,
     description: `usePopcorn is a React-based movie website that allows users to search for movies by title, rate them according to their choice, and add to list their favorite movies. The website is designed to be user-friendly and visually appealing.`,
-    codeURL: `https://github.com/ayush1184/`,
-    demoURL: ``,
+    codeURL: `https://github.com/ayush1184/UsePopcorn`,
+    demoURL: `https://usepopcorn-aks1184.vercel.app/`,
   },
 ];
 
