@@ -12,13 +12,12 @@ import Footer from "./Footer";
 export const navbarTabs = [`About`,`Projects`,`Skills`,`Education`,`Impossible List`,];
 
 export default function App() {
-  const [starterLoading, setStarterLoading] = useState(false);
   const [activeTab, setActiveTab] = useState(null);
 
-  // const [starterLoading, setStarterLoading] = useState(true);
-  // useEffect(function () {
-  //   setTimeout(() => setStarterLoading(false), 3200);
-  // }, []);
+  const [starterLoading, setStarterLoading] = useState(true);
+  useEffect(function () {
+    setTimeout(() => setStarterLoading(false), 3200);
+  }, []);
 
   // useEffect(
   //   function () {
