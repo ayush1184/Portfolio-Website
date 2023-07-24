@@ -242,7 +242,7 @@ function RecentAchievedTab({
       <p className="description">{description}</p>
       {certificateURL ? (
         <a href={certificateURL} target="blank" className="certificateURL">
-          Get Certificate
+          Certificate
         </a>
       ) : (
         ``

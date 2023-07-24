@@ -1,4 +1,6 @@
+import { useInView } from "react-intersection-observer";
 import Init from "./hackerText Final.js";
+import { useEffect } from "react";
 
 function gibrishingText(e) {
   Init(e.target.id, 5, 50);
@@ -86,17 +88,17 @@ function ProjectsTab({
   codeURL,
   demoURL,
 }) {
-  return !reverse ? (
+  return (
     <div className="project-tab">
-      <img
-        className="project-image"
-        src={image}
-        alt={projectTitle + "'s image"}
+      <ProjectImage
+        image={image}
+        projectTitle={projectTitle}
+        reverse={reverse}
       />
-      <div className="border">
+      <div className="border" style={reverse ? { order: 2 } : {}}>
         <div className="bubble"></div>
       </div>
-      <div className="project-data">
+      <div className="project-data" style={reverse ? { order: 1 } : {}}>
         <h1>
           {projectTitle}
           <span>{projectSubTitle}</span>
@@ -112,32 +114,32 @@ function ProjectsTab({
         </div>
       </div>
     </div>
-  ) : (
-    <div className="project-tab">
-      <div className="project-data">
-        <h1>
-          {projectTitle}
-          <span>{projectSubTitle}</span>
-        </h1>
+  );
+}
 
-        <p>{description}</p>
-        <div>
-          <a href={codeURL} target="blank">
-            Source Code <span>&#x2197;</span>
-          </a>
-          <a href={demoURL} target="blank">
-            Demo<span>&#x2197;</span>
-          </a>
-        </div>
-      </div>
-      <div className="border">
-        <div className="bubble"></div>
-      </div>
-      <img
-        className="project-image"
-        src={image}
-        alt={projectTitle + "'s image"}
-      />
-    </div>
+function ProjectImage({ image, projectTitle, reverse }) {
+  const { ref, inView } = useInView({
+    // triggerOnce: true,
+    threshold: 0.001,
+    triggerOnce: true,
+    // onChange: (inView, entry) => {
+    //   if (inView) {
+    //     entry.target.classList.add(`scale-in-center`);
+    //     entry.target.classList.remove(`scale-out-center`);
+    //   } else {
+    //     entry.target.classList.add(`scale-out-center`);
+    //     entry.target.classList.remove(`scale-in-center`);
+    //   }
+    // },
+  });
+
+  return (
+    <img
+      className={inView ? `project-image scale-in-center` : `project-image`}
+      src={image}
+      alt={projectTitle + "'s image"}
+      style={reverse ? { order: 3 } : {}}
+      ref={ref}
+    />
   );
 }

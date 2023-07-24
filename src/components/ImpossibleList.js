@@ -36,6 +36,7 @@ const lifeImpossibleList = [
   { main: `Own a Lamborghini Urus` },
   { main: `Save $10M for retirement` },
   { main: `Move to Seattle` },
+  { main: `Overcome Acrophobia` },
 ];
 
 const educationalImpossibleList = [
@@ -48,7 +49,7 @@ const educationalImpossibleList = [
 
   { main: `Publish a Book Mathematics Pathfinder Solution` },
   { main: `Publish a Book Physics Pathfinder Solution` },
-  { main: `Completely Solve Physics` },
+  { main: `Solve Irodov Book` },
 ];
 
 const proffesionalImpossibleList = [
@@ -61,7 +62,7 @@ const proffesionalImpossibleList = [
       { main: `Intership in Senior year` },
     ],
   },
-  { main: `Land to a "MAANG" Company` },
+  { main: `Land to a "F(M)AANG" Company` },
 ];
 
 const fitnessImpossibleList = [
@@ -69,7 +70,7 @@ const fitnessImpossibleList = [
     main: `Weigh 165lbs of mostly muscle`,
     sub: [{ main: `Weigh 180lbs of mostly muscle` }],
   },
-  { main: `Body Fat Percentage <13.5%` },
+  { main: `Maintain Body Fat Percentage <13.5%` },
   {
     main: `Be able to become`,
     link: `https://en.wikipedia.org/wiki/Human_flag`,
@@ -80,7 +81,14 @@ const fitnessImpossibleList = [
     link: `https://en.wikipedia.org/wiki/Planche_(exercise)`,
     linkText: `Planche`,
   },
-  { main: `Handstand for 15 seconds` },
+  {
+    main: `Handstand for 15 seconds`,
+    sub: [
+      { main: `Handstand for 30 seconds` },
+      { main: `Handstand for 1 Minute` },
+    ],
+  },
+
   { main: `Learn to Front-flip`, isCompleted: true },
   { main: `Learn to Back-flip` },
 ];
@@ -127,7 +135,22 @@ const skillImpossibleList = [
       { main: `Become a Chess Grandmaster` },
     ],
   },
+  {
+    main: `Sky - Diving `,
+    link: `https://skydivehigh.com/skydive-pokhara/`,
+    linkText: `(Pokhra)`,
+  },
   { main: `Ski a double black diamond trail 🔥🔥` },
+  {
+    main: ``,
+    link: `https://skydivehigh.com/halo-jumps/`,
+    linkText: `HALO Jump 🔥🔥`,
+  },
+  {
+    main: ``,
+    link: `https://skydivehigh.com/haho-jumps/`,
+    linkText: `HAHO Jump 🔥🔥🔥`,
+  },
 ];
 
 const travelImpossibleList = [
@@ -151,9 +174,9 @@ const travelImpossibleList = [
   { main: `Niagara Falls` },
   { main: `Vancouver` },
   { main: `Amsterdam` },
-  { main: `Switzerland` },
-  { main: `France` },
-  { main: `Venice City` },
+  { main: `Zurich` },
+  { main: `Paris` },
+  { main: `Venice` },
   { main: `Rome` },
   { main: `Tokyo` },
   { main: `Hong-Kong` },
