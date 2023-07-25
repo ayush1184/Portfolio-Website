@@ -1,6 +1,5 @@
 import { useInView } from "react-intersection-observer";
 import Init from "./hackerText Final.js";
-import { useEffect } from "react";
 
 function gibrishingText(e) {
   Init(e.target.id, 5, 50);
@@ -119,8 +118,7 @@ function ProjectsTab({
 
 function ProjectImage({ image, projectTitle, reverse }) {
   const { ref, inView } = useInView({
-    // triggerOnce: true,
-    threshold: 0.001,
+    threshold: 0.1,
     triggerOnce: true,
     // onChange: (inView, entry) => {
     //   if (inView) {

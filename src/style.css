@@ -84,6 +84,7 @@ ul {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
 }
 
 .header div.blank {
@@ -98,6 +99,15 @@ ul {
   border-radius: 999999px;
   box-shadow: 4px 2px 3px var(--dark-1), -4px -2px 3px var(--dark-1);
   border: 0.2px solid var(--dark-1);
+
+  position: absolute;
+  top: 0%;
+}
+
+.sticky {
+  position: fixed;
+  top: 4%;
+  /* z-index: 1000; */
 }
 
 .nav-link {
@@ -154,6 +164,7 @@ ul {
 .section-header {
   font-size: 32px;
   color: var(--main-color-1);
+  margin-top: 20px;
 }
 
 .section--home {
@@ -401,6 +412,7 @@ ul {
 .project-tab .project-image {
   height: 250px;
   transform: scale(0);
+  z-index: 0;
 }
 
 .project-data {

@@ -7,12 +7,14 @@ import Skills from "./Skills.js";
 import Education from "./Education.js";
 import ImpossibleList from "./ImpossibleList.js";
 import Footer from "./Footer";
+import { useInView } from "react-intersection-observer";
 
 // prettier-ignore
 export const navbarTabs = [`About`,`Projects`,`Skills`,`Education`,`Impossible List`,];
 
 export default function App() {
   const [activeTab, setActiveTab] = useState(null);
+  // const [starterLoading, setStarterLoading] = useState(false);
 
   const [starterLoading, setStarterLoading] = useState(true);
   useEffect(function () {
@@ -26,6 +28,10 @@ export default function App() {
   //   [starterLoading]
   // );
 
+  const { ref, inView } = useInView({
+    threshold: 1,
+  });
+
   return (
     <>
       {starterLoading ? (
@@ -38,11 +44,12 @@ export default function App() {
         <div className="container">
           <header className="header">
             <Navbar
+              sticky={inView}
               tabs={navbarTabs}
               activeTab={activeTab}
               setActiveTab={setActiveTab}
             />
-            <div className="blank"></div>
+            <div className="blank" ref={ref}></div>
             <div className="blank"></div>
             <img className="logo" src={HeroDevices} alt="hero-devices" />
           </header>
@@ -55,18 +62,17 @@ export default function App() {
 }
 
 export function handleNavLinkClick(e) {
-  let id;
-  id = e.target.innerText.toLowerCase().split(` `);
+  let id = e.target.innerText.toLowerCase().split(` `);
   if (id.length >= 2) id = id.slice(0).join(`-`);
 
   document.querySelector(`#${id}`).scrollIntoView({ behavior: `smooth` });
 }
 
-function Navbar({ tabs, activeTab, setActiveTab }) {
+function Navbar({ tabs, sticky, activeTab, setActiveTab }) {
   return (
-    <nav className="navbar">
+    <nav className={sticky ? `navbar` : `navbar sticky`}>
       {tabs.map((el, i) => (
-        <div className={`nav-link`} key={el} onClick={handleNavLinkClick}>
+        <div className={`nav-link`} key={i} onClick={handleNavLinkClick}>
           {el}
         </div>
       ))}
