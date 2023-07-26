@@ -46,7 +46,7 @@ const projects = [
     projectSubTitle: `Movie App`,
     description: `usePopcorn is a React-based movie website that allows users to search for movies by title, rate them according to their choice, and add to list their favorite movies. The website is designed to be user-friendly and visually appealing.`,
     codeURL: `https://github.com/ayush1184/UsePopcorn`,
-    demoURL: `https://usepopcorn-aks1184.vercel.app/`,
+    demoURL: `https://usepopcorn-v2-ayush1184.vercel.app/`,
   },
 ];
 
