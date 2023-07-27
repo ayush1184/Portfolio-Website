@@ -122,8 +122,6 @@ export default function HomePage() {
                 1000,
                 "a Tech-Enthusiast,",
                 1000,
-                "an Adrenaline junkie.",
-                1000,
               ]}
               wrapper="span"
               speed={10}
