@@ -166,6 +166,8 @@ const travelImpossibleList = [
     targetDate: `May 6, 2023`,
     sub: [{ main: `Re-visit` }],
   },
+  { main: `Austin` },
+  { main: `Seattle` },
   { main: `Los Angles` },
   { main: `San Francisco` },
   { main: `Chicago` },
