@@ -118,7 +118,7 @@ const eventsImpossibleList = [
 
 const skillImpossibleList = [
   {
-    main: `Solve Rubik Cube (3 x 3) within 1 minute`,
+    main: `Solve Rubik's Cube (3 x 3) within 1 minute`,
     sub: [
       { main: `Solve Rubik Cube (3 x 3) within 45 seconds` },
       { main: `Solve Rubik Cube (3 x 3) within 30 seconds 🔥` },
@@ -151,6 +151,9 @@ const skillImpossibleList = [
     link: `https://skydivehigh.com/haho-jumps/`,
     linkText: `HAHO Jump 🔥🔥🔥`,
   },
+  {
+    main:`Tactical Driving`
+  }
 ];
 
 const travelImpossibleList = [
