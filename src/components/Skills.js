@@ -6,6 +6,7 @@ const skills = [
   `HTML`,
   `CSS`,
   `JavaScript`,
+  `TypeScript`,
   `Sass`,
   `Java`,
   `Tailwind CSS`,
@@ -13,6 +14,10 @@ const skills = [
   `REACT`,
   `Node JS`,
   `Git`,
+  `Python`,
+  `Next`,
+  `VsCode`,
+  `Vite`,
 ];
 
 export default function Skills() {
