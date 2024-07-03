@@ -69,6 +69,13 @@ const projects = [
     codeURL: `https://github.com/ayush1184/Suduko_Solver.git`,
     // demoURL: ``,
   },
+  {
+    projectTitle: `Tree Visualizer`,
+    projectSubTitle: `Tool`,
+    description: `Tree Visualizer is a Python GUI tool for visualizing Binary Search Trees (BST) and AVL Trees. Utilizing PyQt5 and Matplotlib, it allows users to insert, delete, and search nodes, providing real-time visual feedback.`,
+    codeURL: `https://github.com/ayush1184/Tree-visualizer.git`,
+    // demoURL: ``,
+  },
 ];
 
 export default function Projects() {
