@@ -87,11 +87,17 @@ const recentAchieved = [
 
 const goals = [
   {
-    target: `Intenship in Freshman Year`,
-    dueDate: `May 10, 2024`,
+    target: `Intenship in Sophomore Year`,
+    dueDate: `May 10, 2025`,
     status: `In Progress`,
     image: `https://cdn.iconscout.com/icon/premium/png-256-thumb/internship-2032188-1712126.png`,
   },
+  // {
+  //   target: `Intenship in Freshman Year`,
+  //   dueDate: `May 10, 2024`,
+  //   status: `Failed`,
+  //   image: `https://cdn.iconscout.com/icon/premium/png-256-thumb/internship-2032188-1712126.png`,
+  // },
   // {
   //   target: `Net Worth $5000 Freshman Year`,
   //   dueDate: `May 10, 2024`,
@@ -136,7 +142,7 @@ export default function HomePage() {
           <br />
           {/* ignore-prettier */}
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm
-          Ayush, I'm an incoming freshman student majoring in Computer Science
+          Ayush, I'm a sophomore student majoring in Computer Science
           {` `}
           <a
             href="https://www.eecs.mit.edu/research/computer-science/#:~:text=Computer%20science%20deals%20with%20the,of%20user%20requests%20per%20day."
