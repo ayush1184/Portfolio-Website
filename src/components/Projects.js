@@ -62,7 +62,6 @@ const projects = [
     codeURL: `https://github.com/ayush1184/Image-Outliner.git`,
     // demoURL: ``,
   },
-  },
   {
     projectTitle: `Suduko Solver`,
     projectSubTitle: `Puzzle-Solver`,
