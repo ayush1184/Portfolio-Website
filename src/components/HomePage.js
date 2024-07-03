@@ -53,35 +53,40 @@ const recentAchieved = [
   //   component-based, state-driven
   //   library for building user interfaces, created by Facebook (Meta).`,
   // },
+  // {
+  //   title: `The Complete JavaScript Course`,
+  //   source: `Udemy`,
+  //   date: `Feb, 2023`,
+  //   description: `JavaScript is the most popular programming language in the world. It powers the entire modern web. It provides millions of high-paying jobs all over the world.`,
+  //   certificateURL: `https://www.udemy.com/certificate/UC-366c0eff-3264-466f-82ad-bdcf9c410f5a/`,
+  // },
   {
-    title: `The Complete JavaScript Course`,
-    source: `Udemy`,
-    date: `Feb 17, 2023`,
-    description: `JavaScript is the most popular programming language in the world. It powers the entire modern web. It provides millions of high-paying jobs all over the world.`,
-    certificateURL: `https://www.udemy.com/certificate/UC-366c0eff-3264-466f-82ad-bdcf9c410f5a/`,
-  },
-  {
-    title: `Problem Solving (Basic) Certificate`,
+    title: `Problem Solving (Intermediate) Certificate`,
     source: `HackerRank`,
-    date: `May 13, 2023`,
+    date: `May, 2023`,
     description: `It covers basic topics of Data Structures (such as Arrays, Strings) and Algorithms (such as Sorting and Searching).`,
     certificateURL: `https://www.hackerrank.com/certificates/60b8fa43a928`,
   },
-  {
-    title: `JavaScript (Basic) Certificate`,
-    source: `HackerRank`,
-    date: `May 13, 2023`,
-    description: `It covers topics like, Functions, Currying, Hoisting, Scope, Inheritance, Events and Error Handling.`,
-    certificateURL: `https://www.hackerrank.com/certificates/18f2dd339fe1`,
-  },
+  // {
+  //   title: `JavaScript (Basic) Certificate`,
+  //   source: `HackerRank`,
+  //   date: `May, 2023`,
+  //   description: `It covers topics like, Functions, Currying, Hoisting, Scope, Inheritance, Events and Error Handling.`,
+  //   certificateURL: `https://www.hackerrank.com/certificates/18f2dd339fe1`,
+  // },
   {
     title: `The Ultimate REACT Course`,
     source: `Udemy`,
-    date: `June 17, 2023`,
-    description: `REACTJS is extremely declarative,
-    component-based, state-driven 
-    library for building user interfaces, created by Facebook (Meta).`,
+    date: `June, 2023`,
+    description: `REACTJS is extremely declarative,component-based, state-driven library for building user interfaces, created by Facebook (Meta).`,
     certificateURL: `https://www.udemy.com/certificate/UC-71e5783f-556b-4d2c-b6e9-d74bedf0774d/`,
+  },
+  {
+    title: `Google AI Essentials`,
+    source: `Coursera`,
+    date: `July, 2024`,
+    description: `Master productivity tools, learn prompt engineering for creative output, understand responsible AI deployment, and stay updated on cutting-edge advancements to excel in the evolving AI landscape.`,
+    certificateURL: `https://www.credly.com/badges/063f67a5-ea21-4d41-9c9c-c1118e72e748/public_url`,
   },
 ];
 
