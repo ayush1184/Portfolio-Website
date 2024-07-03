@@ -58,7 +58,7 @@ const projects = [
   {
     projectTitle: `Image Outliner`,
     projectSubTitle: `Image Convertor`,
-    description: `Convert your favorite images into captivating outline sketches effortlessly with this Python-based image processing project. `,
+    description: `Convert your favorite images into captivating outline sketches effortlessly with this Python-based image processing project. This project converts an image into an outline or pencil sketch using a Laplacian filter. The implementation leverages OpenCV and NumPy libraries. `,
     codeURL: `https://github.com/ayush1184/Image-Outliner.git`,
     // demoURL: ``,
   },
