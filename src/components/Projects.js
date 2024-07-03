@@ -53,14 +53,22 @@ const projects = [
     projectSubTitle: `Game`,
     description: `Wordle is a daily word game that involves figuring out a secret five-letter word. You play by guessing different five-letter words to see how close they are to the secret word.`,
     codeURL: `https://github.com/ayush1184/Wordle_Game.git`,
-    // demoURL: `https://usepopcorn-v2-ayush1184.vercel.app/`,
+    // demoURL: ``,
+  },
+  {
+    projectTitle: `Image Outliner`,
+    projectSubTitle: `Image Convertor`,
+    description: `Convert your favorite images into captivating outline sketches effortlessly with this Python-based image processing project. `,
+    codeURL: `https://github.com/ayush1184/Image-Outliner.git`,
+    // demoURL: ``,
+  },
   },
   {
     projectTitle: `Suduko Solver`,
     projectSubTitle: `Puzzle-Solver`,
     description: `Sudoku Solver is a simple and intuitive desktop application built with Python and Tkinter that allows users to solve Sudoku puzzles with ease.`,
     codeURL: `https://github.com/ayush1184/Suduko_Solver.git`,
-    // demoURL: `https://usepopcorn-v2-ayush1184.vercel.app/`,
+    // demoURL: ``,
   },
 ];
 
