@@ -40,7 +40,11 @@ const contacts = [
   { name: `Github`, icon: LiaGithub, url: `https://github.com/ayush1184` },
   { name: `Bento`, icon: SiBento, url: `https://bento.me/ayush1184` },
   { name: `Discord`, icon: LiaDiscord, url: `#` },
-  { name: `Resume`, icon: IoDocumentAttachOutline, url: `https://github.com/user-attachments/files/16090136/Ayush_Singh_F24_Resume.pdf`},
+  { 
+    name: `Resume`, 
+    icon: IoDocumentAttachOutline,
+    url: `https://github.com/user-attachments/files/16093965/Ayush.Singh.Fall_24.Resume.pdf`
+  },
 ];
 
 const recentAchieved = [
