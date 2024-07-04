@@ -43,7 +43,7 @@ const contacts = [
   { 
     name: `Resume`, 
     icon: IoDocumentAttachOutline,
-    url: `https://github.com/user-attachments/files/16093965/Ayush.Singh.Fall_24.Resume.pdf`
+    url: `https://github.com/user-attachments/files/16094033/Ayush.Singh.Fall_24.Resume.pdf`
   },
 ];
 
