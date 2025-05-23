@@ -95,12 +95,12 @@ const recentAchieved = [
 ];
 
 const goals = [
-  {
-    target: `Intenship in Sophomore Year`,
-    dueDate: `May 10, 2025`,
-    status: `In Progress`,
-    image: `https://cdn.iconscout.com/icon/premium/png-256-thumb/internship-2032188-1712126.png`,
-  },
+  // {
+  //   target: `Intenship in Sophomore Year`,
+  //   dueDate: `May 10, 2025`,
+  //   status: `In Progress`,
+  //   image: `https://cdn.iconscout.com/icon/premium/png-256-thumb/internship-2032188-1712126.png`,
+  // },
   // {
   //   target: `Intenship in Freshman Year`,
   //   dueDate: `May 10, 2024`,
